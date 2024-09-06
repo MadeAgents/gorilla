@@ -532,6 +532,12 @@ MODEL_METADATA_MAPPING = {
         "https://huggingface.co/Salesforce/xLAM-7b-fc-r",
         "Salesforce",
         "cc-by-nc-4.0",
+    ],
+    "MadeAgents/Hammer-7b": [
+        "Hammer-7b",
+        "https://huggingface.co/MadeAgents/Hammer-7b",
+        "MadeAgents",
+        "cc-by-nc-4.0",
     ]
 }
 
