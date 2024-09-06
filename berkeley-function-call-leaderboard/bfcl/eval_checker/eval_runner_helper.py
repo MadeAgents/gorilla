@@ -534,7 +534,7 @@ MODEL_METADATA_MAPPING = {
         "cc-by-nc-4.0",
     ],
     "MadeAgents/Hammer-7b": [
-        "Hammer-7b",
+        "Hammer-7b (FC)",
         "https://huggingface.co/MadeAgents/Hammer-7b",
         "MadeAgents",
         "cc-by-nc-4.0",
