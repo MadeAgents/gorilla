@@ -22,7 +22,6 @@ The example format is as follows. Please make sure the parameter type is correct
 ```
 """
 
-model_name1  = ''
 
 class hammerHandler(OSSHandler):
     def __init__(
@@ -30,8 +29,7 @@ class hammerHandler(OSSHandler):
     ) -> None:
         super().__init__(model_name, temperature, top_p, max_tokens, dtype)
         self.model_style = ModelStyle.OSSMODEL
-        global model_name1
-        model_name1 = model_name
+        
 
     def _format_prompt(query, functions, test_category):
         def convert_to_fromat_tool(tools):
